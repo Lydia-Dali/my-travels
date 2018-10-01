@@ -8,8 +8,10 @@ const Travel = ({destination, country, photo,distance }) => (
       <cite>{country}</cite>
       <cite>{distance}</cite>
     </figcaption>
+    
   </figure>
 );
+
 
 export default Travel;
 
